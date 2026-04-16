@@ -1,0 +1,38 @@
+
+PROJET RECONSTRUIT - APPLICATION NON-VOYANT
+
+Ce projet fusionne les nouveaux packs modules et stacks dans :
+app/src/main/java/com/anthony/reperevocal/modules/
+
+Modules intégrés :
+- core/common
+- core/voice
+- core/navigation
+- core/vision
+- core/ocr
+- core/safety
+- core/memory
+- feature/transport
+- feature/smarthome
+- stack/camera
+- stack/ml
+- stack/maps
+- stack/tts
+- stack/speech
+- stack/database
+- stack/ble
+- stack/service
+- stack/work
+- ui/components
+- ui/theme
+
+Écran ajouté :
+- ArchitectureScreen : permet de visualiser tous les modules importés dans l'application.
+
+Si tu veux coller ça dans l'onglet source d'un autre projet, copie en priorité :
+app/src/main/java/com/anthony/reperevocal/modules/
+puis mets à jour :
+- AndroidManifest.xml
+- app/build.gradle.kts
+- navigation/Routes.kt
+- navigation/AppNavGraph.kt
