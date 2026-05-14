@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: repere-vocal-android
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: COMPANION_DATA_DIR
+        value: /data
